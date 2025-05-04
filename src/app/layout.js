@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <SessionWrapper>
         <body className={"bg-[#FFF8F8]"}>
+          <script src="https://cdn.lordicon.com/lordicon.js"></script>
           <NavBar />
           {children}
         </body>
